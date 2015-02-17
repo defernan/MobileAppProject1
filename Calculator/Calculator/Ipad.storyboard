@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="xjf-3B-YW6">
+            <objects>
+                <viewController id="avr-OI-eqA" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eTC-Jt-K6P"/>
+                        <viewControllerLayoutGuide type="bottom" id="mMM-tn-NVT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UqA-9a-PRk">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nfK-8N-zuW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436" y="-320"/>
+        </scene>
+        <!--Graph View Controller-->
+        <scene sceneID="bjH-gn-1D9">
+            <objects>
+                <viewController id="VW4-6J-lVH" customClass="GraphViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xUy-Di-BNX"/>
+                        <viewControllerLayoutGuide type="bottom" id="AzD-yC-DIk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PsI-23-b8O">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9kr-2j-HmL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="599"/>
+        </scene>
+        <!--Split View Controller-->
+        <scene sceneID="Rje-NN-iHH">
+            <objects>
+                <splitViewController id="vUG-5H-JQg" sceneMemberID="viewController">
+                    <connections>
+                        <segue destination="VW4-6J-lVH" kind="relationship" relationship="detailViewController" id="ORQ-pw-CGc"/>
+                        <segue destination="avr-OI-eqA" kind="relationship" relationship="masterViewController" id="ATo-1P-aib"/>
+                    </connections>
+                </splitViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fgF-NU-PFb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-440" y="264"/>
+        </scene>
+    </scenes>
+</document>
