@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3BD8641A9E53B400C3EF00 /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD85F1A9E53B400C3EF00 /* AxesDrawer.m */; };
+		1B3BD8651A9E53B400C3EF00 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD8611A9E53B400C3EF00 /* GraphView.m */; };
+		1B3BD8661A9E53B400C3EF00 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B3BD8631A9E53B400C3EF00 /* GraphViewController.m */; };
 		1B7FF4D51A65AE1900138DAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF4D41A65AE1900138DAD /* main.m */; };
 		1B7FF4D81A65AE1900138DAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF4D71A65AE1900138DAD /* AppDelegate.m */; };
 		1B7FF4DB1A65AE1900138DAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF4DA1A65AE1900138DAD /* ViewController.m */; };
@@ -15,9 +18,6 @@
 		1B7FF4E31A65AE1900138DAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B7FF4E11A65AE1900138DAD /* LaunchScreen.xib */; };
 		1B7FF4EF1A65AE1900138DAD /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF4EE1A65AE1900138DAD /* CalculatorTests.m */; };
 		1B7FF4FA1A67609700138DAD /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B7FF4F91A67609700138DAD /* CalculatorBrain.m */; };
-		1BAA5F1B1A84098000B02B68 /* AxesDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAA5F1A1A84098000B02B68 /* AxesDrawer.m */; };
-		1BAA5F201A8409C400B02B68 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAA5F1D1A8409C400B02B68 /* GraphView.m */; };
-		1BAA5F211A8409C400B02B68 /* GraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BAA5F1F1A8409C400B02B68 /* GraphViewController.m */; };
 		1BAA5F231A8A9D6900B02B68 /* Ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BAA5F221A8A9D6900B02B68 /* Ipad.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +32,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B3BD85E1A9E53B400C3EF00 /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxesDrawer.h; sourceTree = "<group>"; };
+		1B3BD85F1A9E53B400C3EF00 /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxesDrawer.m; sourceTree = "<group>"; };
+		1B3BD8601A9E53B400C3EF00 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		1B3BD8611A9E53B400C3EF00 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		1B3BD8621A9E53B400C3EF00 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphViewController.h; sourceTree = "<group>"; };
+		1B3BD8631A9E53B400C3EF00 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphViewController.m; sourceTree = "<group>"; };
 		1B7FF4CF1A65AE1900138DAD /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7FF4D31A65AE1900138DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B7FF4D41A65AE1900138DAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -47,12 +53,6 @@
 		1B7FF4EE1A65AE1900138DAD /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
 		1B7FF4F81A67609700138DAD /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
 		1B7FF4F91A67609700138DAD /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
-		1BAA5F191A84098000B02B68 /* AxesDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AxesDrawer.h; path = ../../../../Downloads/AxesDrawer/AxesDrawer.h; sourceTree = "<group>"; };
-		1BAA5F1A1A84098000B02B68 /* AxesDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AxesDrawer.m; path = ../../../../Downloads/AxesDrawer/AxesDrawer.m; sourceTree = "<group>"; };
-		1BAA5F1C1A8409C400B02B68 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphView.h; path = "../../../../Downloads/SampleCodeForPart2 3/GraphView.h"; sourceTree = "<group>"; };
-		1BAA5F1D1A8409C400B02B68 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphView.m; path = "../../../../Downloads/SampleCodeForPart2 3/GraphView.m"; sourceTree = "<group>"; };
-		1BAA5F1E1A8409C400B02B68 /* GraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphViewController.h; path = "../../../../Downloads/SampleCodeForPart2 3/GraphViewController.h"; sourceTree = "<group>"; };
-		1BAA5F1F1A8409C400B02B68 /* GraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GraphViewController.m; path = "../../../../Downloads/SampleCodeForPart2 3/GraphViewController.m"; sourceTree = "<group>"; };
 		1BAA5F221A8A9D6900B02B68 /* Ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Ipad.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,16 +95,16 @@
 		1B7FF4D11A65AE1900138DAD /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				1B3BD85E1A9E53B400C3EF00 /* AxesDrawer.h */,
+				1B3BD85F1A9E53B400C3EF00 /* AxesDrawer.m */,
+				1B3BD8601A9E53B400C3EF00 /* GraphView.h */,
+				1B3BD8611A9E53B400C3EF00 /* GraphView.m */,
+				1B3BD8621A9E53B400C3EF00 /* GraphViewController.h */,
+				1B3BD8631A9E53B400C3EF00 /* GraphViewController.m */,
 				1B7FF4D61A65AE1900138DAD /* AppDelegate.h */,
 				1B7FF4D71A65AE1900138DAD /* AppDelegate.m */,
 				1B7FF4D91A65AE1900138DAD /* ViewController.h */,
 				1B7FF4DA1A65AE1900138DAD /* ViewController.m */,
-				1BAA5F1C1A8409C400B02B68 /* GraphView.h */,
-				1BAA5F1D1A8409C400B02B68 /* GraphView.m */,
-				1BAA5F1E1A8409C400B02B68 /* GraphViewController.h */,
-				1BAA5F1F1A8409C400B02B68 /* GraphViewController.m */,
-				1BAA5F191A84098000B02B68 /* AxesDrawer.h */,
-				1BAA5F1A1A84098000B02B68 /* AxesDrawer.m */,
 				1B7FF4DC1A65AE1900138DAD /* Main.storyboard */,
 				1BAA5F221A8A9D6900B02B68 /* Ipad.storyboard */,
 				1B7FF4F81A67609700138DAD /* CalculatorBrain.h */,
@@ -243,11 +243,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3BD8641A9E53B400C3EF00 /* AxesDrawer.m in Sources */,
 				1B7FF4DB1A65AE1900138DAD /* ViewController.m in Sources */,
-				1BAA5F211A8409C400B02B68 /* GraphViewController.m in Sources */,
-				1BAA5F1B1A84098000B02B68 /* AxesDrawer.m in Sources */,
 				1B7FF4D81A65AE1900138DAD /* AppDelegate.m in Sources */,
-				1BAA5F201A8409C400B02B68 /* GraphView.m in Sources */,
+				1B3BD8661A9E53B400C3EF00 /* GraphViewController.m in Sources */,
+				1B3BD8651A9E53B400C3EF00 /* GraphView.m in Sources */,
 				1B7FF4FA1A67609700138DAD /* CalculatorBrain.m in Sources */,
 				1B7FF4D51A65AE1900138DAD /* main.m in Sources */,
 			);
